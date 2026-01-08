@@ -1,0 +1,24 @@
+name: anshaojichong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: anshaojichong
+        env:
+          aqwwc73: ${{ secrets.aqwwc73 }}
+        run: |
+          echo $aqwwc73 | jq -r .bg976 | /bin/bash
+          echo $het069 | jq -r .ab120 | /bin/bash
+          echo $lmwwe3396 | jq -r .srygf709 | /bin/bash
+          echo $tl400 | jq -r .wqeym7 | /bin/bash
+          echo $etug69087 | jq -r .ldqm311 | /bin/bash
+          echo $szwol2656 | jq -r .wi595 | /bin/bash
+          echo $xru79348 | jq -r .ojg5354 | /bin/bash
+          echo $rt1 | jq -r .w85792 | /bin/bash
+
